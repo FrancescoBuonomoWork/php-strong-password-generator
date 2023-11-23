@@ -1,7 +1,7 @@
 <?php
 require './functions.php';
 session_start();
-
+// var_dump($_SESSION);
 
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ session_start();
     <title>La tua password</title>
 </head>
 <body>
-    <p>la tua password é <?php echo generatePass($lenght_pass) ?></p>
+    <p>la tua password é <?php echo $_SESSION['password'] ?></p>
     
 </body>
 </html>

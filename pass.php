@@ -1,7 +1,8 @@
 <?php
-require './functions.php';
+require './partials/functions.php';
 session_start();
 // var_dump($_SESSION);
+
 
 ?>
 <!DOCTYPE html>
@@ -13,6 +14,7 @@ session_start();
 </head>
 <body>
     <p>la tua password é <?php echo $_SESSION['password'] ?></p>
-    
+ 
+
 </body>
 </html>

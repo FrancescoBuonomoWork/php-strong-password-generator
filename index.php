@@ -1,5 +1,5 @@
 <?php
-include './functions.php';
+include './partials/functions.php';
 session_start();
 
 // var_dump($_GET);

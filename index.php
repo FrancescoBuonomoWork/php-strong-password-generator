@@ -1,6 +1,8 @@
 <?php
 include './functions.php';
+session_start();
 
+header('Location: '. 'pass.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

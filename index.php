@@ -31,6 +31,6 @@ function generatePass($lenght){
         <input type="number" name="lenght_pass">
         <input type="submit" value="invio">
     </form>
-    <p></p>
+    <p><?php echo generatePass($lenght_pass) ?></p>
 </body>
 </html>
